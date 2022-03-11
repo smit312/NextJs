@@ -6,7 +6,7 @@ const ErrorPage = () => {
   const router = useRouter();
   useEffect(() => {
     setTimeout(() => {
-      router.push("/");
+      router.push("/"); //after 3 sec it will be redirect to the home page
     }, 3000);
   }, []);
   return (
