@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+import Navbar from "../Components/Navbar";
 
 const ErrorPage = () => {
   const router = useRouter();
@@ -11,6 +12,7 @@ const ErrorPage = () => {
   }, []);
   return (
     <center>
+      <Navbar />
       <h1> 404 | This page could not be found.</h1>
       {/* <Link href="/"> */}
       <a style={{ color: "blue" }} onClick={() => router.push("/")}>
