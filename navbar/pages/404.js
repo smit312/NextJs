@@ -1,8 +1,14 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+
 const ErrorPage = () => {
   const router = useRouter();
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 3000);
+  }, []);
   return (
     <center>
       <h1> 404 | This page could not be found.</h1>
