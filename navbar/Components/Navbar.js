@@ -21,6 +21,11 @@ const Navbar = () => {
               <a>Profile</a>
             </Link>
           </li>
+          <li>
+            <Link href="/blog">
+              <a>blog</a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
