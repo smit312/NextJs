@@ -6,7 +6,7 @@ const ErrorPage = () => {
     <center>
       <h1> 404 | This page could not be found.</h1>
       <Link href="/">
-        <a>Back to home page</a>
+        <a style={{ color: "blue" }}> Back to home page</a>
       </Link>
     </center>
   );
