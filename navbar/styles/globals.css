@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbar {
+  background-color: black;
+  text-align: center;
+  color: aliceblue;
+}
