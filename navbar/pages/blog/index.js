@@ -16,7 +16,7 @@ const blog = ({ data }) => {
   return (
     <center>
       <h1> hello from blog</h1>
-      {data.slice(0, 5).map((currElem) => {
+      {data.slice(0, 10).map((currElem) => {
         return (
           <div key={currElem.id}>
             <h3>{currElem.id}</h3>
